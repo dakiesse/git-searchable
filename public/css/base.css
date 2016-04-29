@@ -1,0 +1,150 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+/* Application */
+#content {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.repo-select {
+  position: relative;
+  background-color: #F9F9F9;
+}
+
+.repo-select input {
+  background-color: transparent;
+  padding-right: 10rem;
+  position: relative;
+  z-index: 2;
+}
+
+.repo-select--open input {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.repo-select__select {
+  margin-bottom: 0;
+}
+
+.repo-select__select__autocomplete-placeholer {
+  position: absolute;
+  top: 5px;
+  left: 13px;
+  font-size: 1rem;
+  z-index: 0;
+  color: silver;
+}
+
+.repo-select__select__community-name {
+  font-weight: bold;
+  position: absolute;
+  right: 0.75rem;
+  top: .375rem;
+  font-size: 1rem;
+  color: #808080;
+}
+
+.repo-select__dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.repo-select__dropdown__item {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: 0;
+  padding: .375rem .75rem;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.repo-select__dropdown__item:hover {
+  background-color: #F9F9F9;
+}
+
+.repo-select__dropdown__item__desc {
+  color: #9a9a9a;
+}
+
+.repo-info {
+  max-width: 40rem;
+  margin: 4rem auto 0;
+}
+
+.repo-select__row {
+  display: flex;
+}
+
+.repo-select__col:nth-child(1) {
+  text-align: right;
+  font-weight: bold;
+  flex-basis: 20%;
+  margin-right: 1rem;
+}
+
+.repo-select__col:nth-child(2) {
+}
